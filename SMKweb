@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+    <h1>WELCOME TO MY SITE</h1>
+</header>
+    <nav>
+        <h3>Menu Navigasi</h3>
+        <ul>
+            <li><a href="">Link1</a></li>         
+            <li><a href="">Link1</a></li>         
+            <li><a href="">Link1</a></li>         
+            <li><a href="">Link1</a></li>         
+            <li><a href="">Link1</a></li>         
+            <li><a href="">Link1</a></li>         
+            <li><a href="">Link1</a></li>         
+        </ul>
+    </nav>
+
+<main>
+    <img style="border-radius: 100%;" src="image/suki.jpg" alt="">
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis at dolorum, 
+        fuga molestias quibusdam facere, non ad modi distinctio, iusto in? Quam consequuntur, 
+        neque corporis facere ducimus voluptates quis eius commodi. Pariatur omnis molestias illo
+         velit saepe placeat. Maxime nulla mollitia adipisci quaerat. Enim dolores, cum reiciendis esse, quod atque a accusantium labore optio ab
+          id doloribus quia! Ipsum voluptas soluta corporis tempora iusto debitis nemo molestias, sit odit nobis culpa aut. Explicabo provident
+           ducimus iste, laboriosam officia nostrum nemo eos facere maxime dignissimos? Labore officia explicabo sed totam fugit sint accusamus alias!
+            A ab rem ad pariatur, asperiores iusto.</p>
+
+    
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            A repellat voluptates velit, quas dolor corrupti ut. Corrupti iusto porro a suscipit voluptatum ut quasi
+            similique alias id distinctio? Eos adipisci ut exercitationem repellendus vitae ipsam dolore sed animi explicabo laudantium beatae hic veritatis ullam unde ducimus, asperiores consectetur totam enim 
+            recusandae, cupiditate quas porro veniam! Error ducimus soluta illum, labore minima voluptas incidunt nostrum tempora doloremque, laborum amet! Aut, saepe.</p>
+</main>
+
+<footer>
+    <p>Copyright @copy:2025 by X SIJA 1</p>
+</footer>
+</body>
+</html>
