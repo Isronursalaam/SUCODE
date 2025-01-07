@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int pin = 123;
+        int kesempatan = 3;
+        int saldo = 100000;
+       
+        
+        while(kesempatan > 0){
+        System.out.print("masukkan pin: ");
+        int mpin= scanner.nextInt();
+        
+        if(pin == mpin)
+        {
+            System.out.println("Berhasil ");
+            
+            while(true){
+                
+                System.out.println("1.Cek saldo ");
+                System.out.println("2.Tarik saldo ");
+                System.out.println("3.tambah saldo ");
+                System.out.println("4.Keluar program ");
+                
+                 System.out.println("PILIH NOMOR");
+                 int pilih = scanner.nextInt();
+                
+              switch(pilih){
+                  case 1 : System.out.println("saldo anda : " + saldo);
+                   break;
+                   case 2 : System.out.print("MAU tarik berapa saldo ? :");
+                   int salkur = scanner.nextInt();
+                   
+                    System.out.println("saldo berhasil di tarik");
+                    
+                    saldo = saldo - salkur;
+                    System.out.println(salkur);
+                    break;
+                    case 3 : System.out.print("MAU tambah berapa saldo ? :");
+                   int salmah = scanner.nextInt();
+                   
+                    System.out.println("saldo berhasil di tambah");
+                    
+                    saldo = saldo + salmah;
+                    System.out.println(salmah);
+                   break;
+                   case 4 : System.out.print("TERIMAKASOH TELAH MENGGUANAKAN PROGRAM KAMI STM");
+                   scanner.close();
+                   return;
+              }   
+            }
+         } 
+        else {
+            kesempatan--;
+            System.out.println("salah, kesempatan anda sisa:" + kesempatan);
+        }
+        if (kesempatan==0)
+        {
+            System.out.println("Hacker jangan menyerang");
+        }
+        }
+        scanner.close();
+    }
+}
